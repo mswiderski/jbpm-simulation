@@ -90,7 +90,7 @@ public class StaffPoolImpl implements StaffPool {
 	
 	protected long allocate(long startTime, long duration) {
 //		long waitTime = 0;
-//		performedWork += duration;
+		performedWork += duration;
 //		
 //		List<Long> allocatedTill = findAllocatedRange(startTime);
 //		if(allocatedTill.size() < poolSize) {
@@ -164,7 +164,6 @@ public class StaffPoolImpl implements StaffPool {
 	        int upper = Integer.parseInt(elems[1]);
 	        
 	        if (hour >= lower && hour <= upper) {
-	            System.out.println("######## selecting range " + range);
 	            return this.allocatedRanges.get(range);
 	        }
 	        
