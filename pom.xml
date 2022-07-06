@@ -15,7 +15,7 @@
     <url>https://github.com/mswiderski/jbpm-simulation</url>
   </scm>
   <properties>
-    <jbpm.version>6.0.0-SNAPSHOT</jbpm.version>
+    <jbpm.version>6.2.0.Final</jbpm.version>
     <eclipse.bpmn2.version>0.7.0.010</eclipse.bpmn2.version>
     <json.version>20090211</json.version>
   </properties>
